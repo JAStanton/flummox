@@ -10,8 +10,7 @@
   "homepage": "https://github.com/acdlite/flummox/blob/latest/README.md",
   "bugs": "https://github.com/acdlite/flummox/issues",
   "scripts": {
-    "test": "make fast-js test",
-    "postinstall": "npm run test"
+    "postinstall": "make fast-js test"
   },
   "keywords": [
     "flux",
