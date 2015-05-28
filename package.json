@@ -11,7 +11,7 @@
   "bugs": "https://github.com/acdlite/flummox/issues",
   "scripts": {
     "test": "make fast-js test",
-    "prepublish": "npm run test"
+    "postinstall": "npm run test"
   },
   "keywords": [
     "flux",
